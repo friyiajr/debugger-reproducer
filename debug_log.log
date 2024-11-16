@@ -1,0 +1,78 @@
+2024-11-16 13:56:05.814 [info] Found app root folder: /Users/danielfriyia/src/debugger-reproducer
+2024-11-16 13:56:05.997 [info] Launching devtools
+2024-11-16 13:56:05.997 [info] Launching metro
+2024-11-16 13:56:06.010 [info] Devtools started on port 57122
+2024-11-16 13:56:06.308 [info] Could not find Xcode project files in "/Users/danielfriyia/src/debugger-reproducer/ios" folder
+2024-11-16 13:56:06.759 [info] Selected device is ready
+2024-11-16 13:56:07.528 [info] Node modules already installed - skipping
+2024-11-16 13:56:07.697 [info] Metro Starting project at /Users/danielfriyia/src/debugger-reproducer
+2024-11-16 13:56:08.026 [info] Metro {"type":"RNIDE_watch_folders","watchFolders":["/Users/danielfriyia/src/debugger-reproducer","/Users/danielfriyia/src/debugger-reproducer","/Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/lib"]}
+2024-11-16 13:56:08.026 [info] Captured metro watch folders ["/Users/danielfriyia/src/debugger-reproducer","/Users/danielfriyia/src/debugger-reproducer","/Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/lib"]
+2024-11-16 13:56:08.265 [info] Metro {"hasReducedPerformance":false,"port":0,"type":"initialize_started"}
+2024-11-16 13:56:08.265 [info] Metro {"type":"dep_graph_loading","hasReducedPerformance":false}
+2024-11-16 13:56:08.280 [info] Metro {"type":"RNIDE_initialize_done","port":57131}
+2024-11-16 13:56:08.280 [info] Metro started on port 57131
+2024-11-16 13:56:08.280 [info] Metro & devtools ready
+2024-11-16 13:56:08.663 [info] Metro {"type":"dep_graph_loaded"}
+2024-11-16 13:56:08.663 [info] Metro {"type":"transformer_load_started"}
+2024-11-16 13:56:08.683 [info] Metro {"type":"transformer_load_done"}
+2024-11-16 13:56:08.683 [info] Metro {"type":"initialize_done","port":0}
+2024-11-16 13:56:08.935 [info] Metro Waiting on http://localhost:8081
+2024-11-16 13:56:08.935 [info] Metro Logs for your project will appear below.
+2024-11-16 13:56:09.589 [info] Calculating fingerprint
+2024-11-16 13:56:13.118 [info] Calculating fingerprint
+2024-11-16 13:56:15.031 [info] Using cached build.
+2024-11-16 13:56:15.032 [info] Build completed in 1.92 sec.
+2024-11-16 13:56:23.365 [info] Will wait for app ready and for preview
+2024-11-16 13:56:23.365 [info] Launch preview /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/simulator-server-macos ios,--id,86FF53B6-0D3E-4291-8E39-5B4F89703C67,--device-set,/Users/danielfriyia/Library/Caches/com.swmansion.radon-ide/Devices/iOS
+2024-11-16 13:56:23.915 [info] Stream ready http://127.0.0.1:57176/stream.mjpeg
+2024-11-16 13:56:23.915 [info] sim-server: stream_ready http://127.0.0.1:57176/stream.mjpeg
+2024-11-16 13:56:23.916 [info] sim-server: [2024-11-16T18:56:23Z INFO  simulator_server::mjpeg_server] MJPEG server started at http://127.0.0.1:57176/stream.mjpeg
+2024-11-16 13:56:26.756 [info] Metro {"buildID":"2","bundleDetails":{"bundleType":"bundle","customResolverOptions":{},"customTransformOptions":{"engine":"hermes","bytecode":"1","routerRoot":"app"},"dev":true,"entryFile":"/Users/danielfriyia/src/debugger-reproducer/node_modules/expo/AppEntry.js","minify":false,"platform":"ios"},"isPrefetch":false,"type":"bundle_build_started"}
+2024-11-16 13:56:27.530 [info] Metro {"buildID":"2","type":"bundle_build_done"}
+2024-11-16 13:56:27.679 [info] Devtools client connected
+2024-11-16 13:56:28.024 [info] Metro {"type":"client_log","level":"log","data":["Bridgeless mode is enabled"],"mode":"NOBRIDGE"}
+2024-11-16 13:56:28.024 [info] Metro {"type":"client_log","level":"log","data":["__RNIDE_INTERNAL","radon-ide runtime loaded"],"mode":"NOBRIDGE"}
+2024-11-16 13:56:28.024 [info] Metro {"type":"client_log","level":"info","data":["\n\u001b[7m \u001b[1m💡 JavaScript logs will be removed from Metro in React Native 0.77!\u001b[22m Please use React Native DevTools as your default tool. Tip: Type \u001b[1mj\u001b[22m in the terminal to open (requires Google Chrome or Microsoft Edge).\u001b[27m\n"]}
+2024-11-16 13:56:28.024 [info] Metro {"type":"client_log","level":"log","data":["Running \"main\" with {\"rootTag\":11,\"initialProps\":{\"exp\":{\"manifestString\":\"{\\\"isVerified\\\":true,\\\"id\\\":\\\"3e5694df-2fe4-445a-91ea-31968359e3f8\\\",\\\"metadata\\\":{},\\\"createdAt\\\":\\\"2024-11-16T18:56:26.719Z\\\",\\\"runtimeVersion\\\":\\\"exposdk:52.0.0\\\",\\\"extra\\\":{\\\"eas\\\":{},\\\"scopeKey\\\":\\\"@anonymous\\\\/debugger-reproducer-5b726967-1bf1-472b-85e1-a3235b2200b7\\\",\\\"expoClient\\\":{\\\"orientation\\\":\\\"portrait\\\",\\\"version\\\":\\\"1.0.0\\\",\\\"userInterfaceStyle\\\":\\\"light\\\",\\\"assetBundlePatterns\\\":[\\\"**\\\\/*\\\"],\\\"experiments\\\":{\\\"tsconfigPaths\\\":true},\\\"ios\\\":{\\\"supportsTablet\\\":true},\\\"_internal\\\":{\\\"packageJsonPath\\\":\\\"\\\\/Users\\\\/danielfriyia\\\\/src\\\\/debugger-reproducer\\\\/package.json\\\",\\\"projectRoot\\\":\\\"\\\\/Users\\\\/danielfriyia\\\\/src\\\\/debugger-reproducer\\\",\\\"staticConfigPath\\\":\\\"\\\\/Users\\\\/danielfriyia\\\\/src\\\\/debugger-reproducer\\\\/app.json\\\",\\\"isDebug\\\":false,\\\"dynamicConfigPath\\\":null},\\\"hostUri\\\":\\\"localhost:57131\\\",\\\"android\\\":{\\\"adaptiveIcon\\\":{\\\"foregroundImageUrl\\\":\\\"http:\\\\/\\\\/localhost:57131\\\\/assets\\\\/.\\\\/assets\\\\/adaptive-icon.png\\\",\\\"foregroundImage\\\":\\\".\\\\/assets\\\\/adaptive-icon.png\\\",\\\"backgroundColor\\\":\\\"#ffffff\\\"}},\\\"plugins\\\":[],\\\"web\\\":{\\\"favicon\\\":\\\".\\\\/assets\\\\/favicon.png\\\"},\\\"slug\\\":\\\"debugger-reproducer\\\",\\\"icon\\\":\\\".\\\\/assets\\\\/icon.png\\\",\\\"splash\\\":{\\\"resizeMode\\\":\\\"contain\\\",\\\"backgroundColor\\\":\\\"#ffffff\\\",\\\"image\\\":\\\".\\\\/assets\\\\/splash.png\\\",\\\"imageUrl\\\":\\\"http:\\\\/\\\\/localhost:57131\\\\/assets\\\\/.\\\\/assets\\\\/splash.png\\\"},\\\"platforms\\\":[\\\"ios\\\",\\\"android\\\"],\\\"iconUrl\\\":\\\"http:\\\\/\\\\/localhost:57131\\\\/assets\\\\/.\\\\/assets\\\\/icon.png\\\",\\\"sdkVersion\\\":\\\"52.0.0\\\",\\\"name\\\":\\\"debugger-reproducer\\\"},\\\"expoGo\\\":{\\\"developer\\\":{\\\"projectRoot\\\":\\\"\\\\/Users\\\\/danielfriyia\\\\/src\\\\/debugger-reproducer\\\",\\\"tool\\\":\\\"expo-cli\\\"},\\\"__flipperHack\\\":\\\"React Native packager is running\\\",\\\"mainModuleName\\\":\\\"node_modules\\\\/expo\\\\/AppEntry\\\",\\\"packagerOpts\\\":{\\\"dev\\\":true},\\\"debuggerHost\\\":\\\"localhost:57131\\\"}},\\\"assets\\\":[],\\\"launchAsset\\\":{\\\"key\\\":\\\"bundle\\\",\\\"contentType\\\":\\\"application\\\\/javascript\\\",\\\"url\\\":\\\"http:\\\\/\\\\/localhost:57131\\\\/node_modules\\\\/expo\\\\/AppEntry.bundle?platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable\\\"}}\",\"shell\":false,\"initialUri\":\"exp://localhost:57131\",\"appOwnership\":\"expo\"},\"concurrentRoot\":true},\"fabric\":true}","http://localhost:57131/node_modules/expo/AppEntry.bundle//&platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable","48756","22"],"mode":"NOBRIDGE"}
+2024-11-16 13:56:28.209 [info] Metro {"type":"client_log","level":"warn","data":["🚨 React Native's New Architecture is always enabled in Expo Go, but it is not explicitly enabled your project app config. This may lead to unexpected behavior when you create a production or development build. Set \"newArchEnabled\": true in your app.json.\nLearn more: https://docs.expo.dev/guides/new-architecture/","http://localhost:57131/node_modules/expo/AppEntry.bundle//&platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable","64686","38"],"mode":"NOBRIDGE"}
+2024-11-16 13:56:28.211 [info] App ready
+2024-11-16 13:56:28.213 [info] App and preview ready, moving on...
+
+When trying to use the debugger out of the box, I get these warnings. But no breakpoint is hit 👇👇👇👇
+
+2024-11-16 13:56:29.263 [warning] CDP message error received {"code":-32601,"message":"Unsupported method 'Debugger.setAsyncCallStackDepth'"}
+2024-11-16 13:56:29.263 [warning] CDP message error received {"code":-32601,"message":"Unsupported method 'Debugger.setBlackboxPatterns'"}
+2024-11-16 13:56:29.263 [warning] CDP message error received {"code":-32601,"message":"Unsupported method 'Runtime.runIfWaitingForDebugger'"}
+2024-11-16 13:56:29.264 [info] Connected to debugger, moving on...
+2024-11-16 13:56:29.264 [info] App launched in 5.92 sec.
+2024-11-16 13:56:29.264 [info] Device session started
+2024-11-16 13:57:25.130 [info] Metro {"type":"client_log","level":"log","data":["DEBUGGER HIT","http://localhost:57131/node_modules/expo/AppEntry.bundle//&platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable","165167","17"],"mode":"NOBRIDGE"}
+2024-11-16 13:57:27.075 [info] Metro {"type":"client_log","level":"log","data":["DEBUGGER HIT","http://localhost:57131/node_modules/expo/AppEntry.bundle//&platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable","165167","17"],"mode":"NOBRIDGE"}
+
+This is what happens if I try and start the debugger manually from Expo Go 👇👇👇👇
+
+2024-11-16 13:57:41.864 [info] Metro /Users/danielfriyia/src/debugger-reproducer/node_modules/@expo/cli/build/src/utils/errors.js:123
+2024-11-16 13:57:41.864 [info] Metro     throw error;
+2024-11-16 13:57:41.864 [info] Metro     ^
+2024-11-16 13:57:41.864 [info] Metro 
+2024-11-16 13:57:41.864 [info] Metro Error: WebSocket closed before response was received.
+2024-11-16 13:57:41.864 [info] Metro     at WebSocket.<anonymous> (/Users/danielfriyia/src/debugger-reproducer/node_modules/@expo/cli/src/start/server/middleware/inspector/CdpClient.ts:46:16)
+2024-11-16 13:57:41.864 [info] Metro     at WebSocket.emit (node:events:518:28)
+2024-11-16 13:57:41.864 [info] Metro     at WebSocket.emitClose (/Users/danielfriyia/src/debugger-reproducer/node_modules/ws/lib/websocket.js:272:10)
+2024-11-16 13:57:41.864 [info] Metro     at Socket.socketOnClose (/Users/danielfriyia/src/debugger-reproducer/node_modules/ws/lib/websocket.js:1341:15)
+2024-11-16 13:57:41.864 [info] Metro     at Socket.emit (node:events:518:28)
+2024-11-16 13:57:41.864 [info] Metro     at TCP.<anonymous> (node:net:337:12)
+2024-11-16 13:57:41.864 [info] Metro 
+2024-11-16 13:57:41.864 [info] Metro Node.js v20.11.0
+2024-11-16 13:57:41.882 [error] Error: Command failed with exit code 7: node /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/lib/expo_start.js
+	at EV (/Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/extension.js:14:59)
+	at /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/extension.js:14:10506
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Metro exited unexpectedly
+2024-11-16 13:57:41.883 [error] Error: Command failed with exit code 7: node /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/lib/expo_start.js
+	at EV (/Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/extension.js:14:59)
+	at /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/extension.js:14:10506
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Subprocess node /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/lib/expo_start.js execution resulted in an error:
+2024-11-16 13:57:41.883 [error] Error: Metro process exited
+	at /Users/danielfriyia/.vscode/extensions/swmansion.react-native-ide-0.0.22-darwin-arm64/dist/extension.js:154:3772
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Unhandled promise rejection
